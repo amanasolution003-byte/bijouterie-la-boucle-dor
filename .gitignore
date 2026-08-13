@@ -1,0 +1,10 @@
+# Fichiers locaux / sensibles
+*.log
+.DS_Store
+Thumbs.db
+
+# Netlify
+.netlify
+
+# Copie locale de sauvegarde Eventuelle
+backup/

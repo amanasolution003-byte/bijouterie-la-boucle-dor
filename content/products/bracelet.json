@@ -1,0 +1,8 @@
+{
+  "pageTitle": "Nos Bracelets",
+  "subtitle": "L'elegance a votre poignet",
+  "products": [
+    { "title": "Bracelet Or Maille Gourmette", "image": "images/Nos Bracelets/Bracelet_cleanup.jpg" },
+    { "title": "Bracelet Or Torsade", "image": "images/Nos Bracelets/Bracelet (2)_cleanup.jpg" }
+  ]
+}

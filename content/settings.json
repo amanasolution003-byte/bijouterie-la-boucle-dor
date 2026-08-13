@@ -1,0 +1,87 @@
+{
+  "site": {
+    "title": "La Boucle d'Or - Bijouterie Fine",
+    "logo": "La Boucle d'Or",
+    "footer": "© 2026 La Boucle d'Or - Bijouterie Fine. Tous droits reserves."
+  },
+  "hero": {
+    "title": "La Boucle d'Or",
+    "subtitle": "L'elegance intemporelle",
+    "button": "Decouvrir",
+    "image": "images/Acceuil.jpg"
+  },
+  "collections": {
+    "title": "Nos Collections",
+    "subtitle": "Des pieces uniques faconnees avec passion"
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "subtitle": "L'art de la bijouterie depuis 1990",
+    "paragraphs": [
+      "La Boucle d'Or est née d'une passion. Chaque pièce raconte une histoire, chaque modèle est une exception.",
+      "Nous vous invitons à visiter notre boutique située à Cheraga, où vous allez être agréablement surpris par la qualité incomparable de nos bijoux."
+    ],
+    "button": "Nous rencontrer",
+    "buttonLink": "#contact"
+  },
+  "testimonials": {
+    "title": "Ce qu'ils disent",
+    "subtitle": "La satisfaction de nos clients, notre plus belle recompense",
+    "items": [
+      {
+        "text": "Des bijoux raffinés, élégants et légers à porter au quotidien. On sent une vraie attention portée aux détails et aux finitions.",
+        "author": "Sabrina K."
+      },
+      {
+        "text": "Finesse, élégance et super qualité. Je recommande à 100 % !",
+        "author": "Nouha K."
+      },
+      {
+        "text": "J'ai acheté une bague et le rendu est encore plus beau en vrai que sur les photos. Les finitions sont impeccables et la pièce fait vraiment son effet. Je repasserai commande sans hésiter !",
+        "author": "Tiziri L."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous sur",
+    "items": [
+      {
+        "icon": "phone",
+        "label": "Telephone",
+        "value": "0668 43 70 85",
+        "link": "tel:0668437085"
+      },
+      {
+        "icon": "whatsapp",
+        "label": "WhatsApp",
+        "value": "0668 43 70 85",
+        "link": "https://wa.me/213668437085"
+      },
+      {
+        "icon": "facebook",
+        "label": "Facebook",
+        "value": "Notre page",
+        "link": "https://www.facebook.com/share/1FBfSxUBHx/"
+      },
+      {
+        "icon": "email",
+        "label": "Email",
+        "value": "cmedreda@gmail.com",
+        "link": "mailto:cmedreda@gmail.com"
+      },
+      {
+        "icon": "hours",
+        "label": "Horaires",
+        "value": "Sam-Jeudi 10h-19h",
+        "link": ""
+      },
+      {
+        "icon": "address",
+        "label": "Adresse",
+        "value": "01 lotissement Guelati, Cheraga - Alger",
+        "link": "https://maps.app.goo.gl/adPmTB3C26FaSaj87"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+# ============================================
+# Configuration Decap CMS - La Boucle d'Or
+# Edite le contenu du site : textes, collections,
+# produits, avis, coordonnees.
+# ============================================
+
+backend:
+  name: git-gateway
+  branch: main
+  accept_roles:
+    - admin
+    - editor
+
+# Les images ajoutees via l'editeur sont stockees ici
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  # ---------- Textes generaux du site ----------
+  - name: "settings"
+    label: "Parametres du site"
+    label_singular: "Parametre"
+    description: "Textes principaux : hero, histoire, avis, contact, pied de page."
+    format: json
+    files:
+      - name: "settings"
+        label: "Textes du site"
+        file: "content/settings.json"
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titre (onglet navigateur)", name: "title", widget: "string" }
+              - { label: "Logo (texte en haut a gauche)", name: "logo", widget: "string" }
+              - { label: "Pied de page", name: "footer", widget: "string" }
+          - label: "Hero (image d'accueil)"
+            name: "hero"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "string" }
+              - { label: "Texte du bouton", name: "button", widget: "string" }
+              - { label: "Image de fond", name: "image", widget: "image" }
+          - label: "Section Collections"
+            name: "collections"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "string" }
+          - label: "Notre Histoire"
+            name: "about"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "string" }
+              - label: "Paragraphes"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraphe", name: "par", widget: "text" }
+              - { label: "Texte du bouton", name: "button", widget: "string" }
+              - { label: "Lien du bouton", name: "buttonLink", widget: "string" }
+          - label: "Avis clients"
+            name: "testimonials"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "string" }
+              - label: "Avis"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Texte de l'avis", name: "text", widget: "text" }
+                  - { label: "Auteur", name: "author", widget: "string" }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "subtitle", widget: "string" }
+              - label: "Coordonnees"
+                name: "items"
+                widget: "list"
+                fields:
+                  - label: "Type d'icone"
+                    name: "icon"
+                    widget: "select"
+                    options:
+                      - { label: "Telephone", value: "phone" }
+                      - { label: "WhatsApp", value: "whatsapp" }
+                      - { label: "Facebook", value: "facebook" }
+                      - { label: "Email", value: "email" }
+                      - { label: "Horaires", value: "hours" }
+                      - { label: "Adresse", value: "address" }
+                  - { label: "Libelle (Telephone, Email...)", name: "label", widget: "string" }
+                  - { label: "Valeur affichee", name: "value", widget: "string" }
+                  - { label: "Lien (tel:, mailto:, ou URL)", name: "link", widget: "string", required: false }
+
+  # ---------- Collections de la page d'accueil ----------
+  - name: "collections"
+    label: "Collections (page d'accueil)"
+    label_singular: "Collection"
+    description: "Les 7 grandes categories affichees sur la page d'accueil."
+    format: json
+    files:
+      - name: "lists"
+        label: "Liste des collections"
+        file: "content/collections.json"
+        fields:
+          - label: "Collections"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Nom (Bague, Bracelet...)", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Page associee (pages/xxxx.html)", name: "page", widget: "string" }
+
+  # ---------- Produits par categorie ----------
+  - name: "products"
+    label: "Produits"
+    label_singular: "Produit"
+    description: "Modifiez les produits de chaque categorie."
+    format: json
+    folder: "content/products"
+    fields:
+      - { label: "Titre de la page", name: "pageTitle", widget: "string" }
+      - { label: "Sous-titre de la page", name: "subtitle", widget: "string" }
+      - label: "Produits"
+        name: "products"
+        widget: "list"
+        fields:
+          - { label: "Nom du produit", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }

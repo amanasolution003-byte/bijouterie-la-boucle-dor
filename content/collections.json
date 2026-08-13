@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "title": "Bague",
+      "description": "Des bagues en or, ornées de pierres précieuses.",
+      "image": "images/Nos Bagues/Bague_cleanup.jpg",
+      "page": "pages/bague.html"
+    },
+    {
+      "title": "Bracelet",
+      "description": "Des bracelets raffinées pour des poignets élégants.",
+      "image": "images/Nos Bracelets/Bracelet_cleanup.jpg",
+      "page": "pages/bracelet.html"
+    },
+    {
+      "title": "Boucle",
+      "description": "Des boucles d'oreilles qui captent la lumière et attirent les regards.",
+      "image": "images/Nos Boucles/Boucle_cleanup.jpg",
+      "page": "pages/boucle.html"
+    },
+    {
+      "title": "Perle",
+      "description": "Des bijoux de perles d'une élégance naturelle et raffinée.",
+      "image": "images/Nos perles/perles_cleanup.jpg",
+      "page": "pages/perle.html"
+    },
+    {
+      "title": "Ensemble Bracelet & Bague",
+      "description": "Des ensembles bracelet et bague pour sublimer vos mains.",
+      "image": "images/Nos Ensembles/Ensemble Bracelet & Bague_cleanup.jpg",
+      "page": "pages/ensemble-bracelet-bague.html"
+    },
+    {
+      "title": "Ensemble complet",
+      "description": "Des parures complètes pour un look harmonieux et élégant.",
+      "image": "images/Nos Ensembles/Ensemble complet_cleanup.jpg",
+      "page": "pages/ensemble-complet.html"
+    },
+    {
+      "title": "Pendentifs",
+      "description": "Des pendentifs lumineux pour un style intemporel.",
+      "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
+      "page": "pages/pendentifs.html"
+    }
+  ]
+}
