@@ -117,6 +117,22 @@ collections:
               - { label: "Nom (Bague, Bracelet...)", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Image", name: "image", widget: "image" }
+              - label: "Format de la photo"
+                name: "imageFormat"
+                widget: "select"
+                default: "cover"
+                options:
+                  - { label: "Remplir (rogne les bords)", value: "cover" }
+                  - { label: "Montrer en entier (sans rogner)", value: "contain" }
+              - label: "Taille de la photo"
+                name: "imageSize"
+                widget: "select"
+                default: "medium"
+                options:
+                  - { label: "Petite (200px)", value: "small" }
+                  - { label: "Moyenne (250px)", value: "medium" }
+                  - { label: "Grande (320px)", value: "large" }
+                  - { label: "Taille d'origine (hauteur auto)", value: "auto" }
               - label: "Page associee"
                 name: "page"
                 widget: "string"
@@ -144,3 +160,19 @@ collections:
         fields:
           - { label: "Nom du produit", name: "title", widget: "string" }
           - { label: "Image", name: "image", widget: "image" }
+          - label: "Format de la photo"
+            name: "imageFormat"
+            widget: "select"
+            default: "cover"
+            options:
+              - { label: "Remplir (rogne les bords)", value: "cover" }
+              - { label: "Montrer en entier (sans rogner)", value: "contain" }
+          - label: "Taille de la photo"
+            name: "imageSize"
+            widget: "select"
+            default: "medium"
+            options:
+              - { label: "Petite (220px)", value: "small" }
+              - { label: "Moyenne (350px)", value: "medium" }
+              - { label: "Grande (480px)", value: "large" }
+              - { label: "Taille d'origine (hauteur auto)", value: "auto" }

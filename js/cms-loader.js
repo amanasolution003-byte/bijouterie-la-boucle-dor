@@ -136,8 +136,10 @@
       if (href && !/\.html$/.test(href)) {
         href = 'pages/collection.html?page=' + encodeURIComponent(href);
       }
+      var imgClass = 'card-img ' + (c.imageFormat === 'contain' ? 'img-contain' : '') +
+        imgSizeClass('collection-card', c.imageSize, 'medium');
       return '<a href="' + base + href + '" class="collection-card">' +
-        '<img src="' + base + c.image + '" alt="' + c.title + '" class="card-img">' +
+        '<img src="' + base + c.image + '" alt="' + c.title + '" class="' + imgClass + '">' +
         '<div class="card-body"><h3>' + c.title + '</h3><p>' + c.description + '</p></div></a>';
     }).join('');
   }
@@ -158,13 +160,24 @@
       return;
     }
     grid.innerHTML = data.products.map(function(p) {
-      return '<div class="product-card"><img src="' + base + p.image + '" alt="' + p.title + '">' +
+      var imgClass = (p.imageFormat === 'contain' ? 'img-contain ' : '') +
+        imgSizeClass('product-card', p.imageSize, 'medium');
+      return '<div class="product-card"><img src="' + base + p.image + '" alt="' + p.title + '" class="' + imgClass + '">' +
         '<div class="p-body"><h3>' + p.title + '</h3><a href="#" class="btn">Voir detail</a></div></div>';
     }).join('');
   }
 
   function apply(renderFn, data) {
     try { renderFn(data); } catch (e) { console.error('Erreur rendu:', e); }
+  }
+
+  // Convertit la valeur 'imageSize' de Decap en classe CSS de hauteur.
+  // 'auto' laisse la hauteur d'origine (classe img-h-auto). Defaut = moyenne.
+  function imgSizeClass(context, size, fallback) {
+    if (size === 'auto') return ' img-h-auto';
+    if (size === 'small') return ' img-h-small';
+    if (size === 'large') return ' img-h-large';
+    return '';
   }
 
   // --- Loader principal ---
