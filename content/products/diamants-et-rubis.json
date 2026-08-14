@@ -1,0 +1,15 @@
+{
+  "slug": "diamants-et-rubis",
+  "pageTitle": "Diamants et Rubis",
+  "subtitle": "Des diamants et rubis qui vous laisseront sans voix",
+  "products": [
+    {
+      "title": "Bague Diamant",
+      "image": "images/uploads/diamants.jpg"
+    },
+    {
+      "title": "Parure Diamants et Rubis",
+      "image": "images/uploads/diamants-et-rubis.jpg"
+    }
+  ]
+}
