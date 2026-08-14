@@ -176,6 +176,21 @@
   </footer>
   <script src="js/script.js"></script>
   <script src="js/cms-loader.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    // Gere le lien de confirmation / reinitialisation envoye par email :
+    // si un jeton Identity est present dans l'URL, on traite la reinitialisation
+    // puis on redirige vers le panneau d'administration.
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', function(user) {
+        if (!user) {
+          window.netlifyIdentity.on('login', function() {
+            window.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
 
