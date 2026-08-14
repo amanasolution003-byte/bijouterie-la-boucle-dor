@@ -1,7 +1,11 @@
-{
-  "pageTitle": "Nos Perles",
-  "subtitle": "L'elegance intemporelle de la perle",
-  "products": [
-    { "title": "Collier de Perles", "image": "images/Nos perles/perles_cleanup.jpg" }
-  ]
+﻿{
+    "slug":  "perle",
+    "pageTitle":  "Nos Perles",
+    "subtitle":  "L\u0027elegance intemporelle de la perle",
+    "products":  [
+                     {
+                         "title":  "Collier de Perles",
+                         "image":  "images/Nos perles/perles_cleanup.jpg"
+                     }
+                 ]
 }

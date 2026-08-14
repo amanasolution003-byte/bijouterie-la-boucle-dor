@@ -103,7 +103,7 @@ collections:
   - name: "collections"
     label: "Collections (page d'accueil)"
     label_singular: "Collection"
-    description: "Les 7 grandes categories affichees sur la page d'accueil."
+    description: "Les 7 grandes categories affichees sur la page d'accueil. Pour une nouvelle collection, mettez dans 'Page associee' un simple mot-clef (ex: diamant) : la page se cree automatiquement."
     format: json
     files:
       - name: "lists"
@@ -117,16 +117,25 @@ collections:
               - { label: "Nom (Bague, Bracelet...)", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Image", name: "image", widget: "image" }
-              - { label: "Page associee (pages/xxxx.html)", name: "page", widget: "string" }
+              - label: "Page associee"
+                name: "page"
+                widget: "string"
+                hint: "Chemin complet (pages/bague.html) OU un simple mot-clef (ex: diamant) pour creer la page automatiquement."
 
   # ---------- Produits par categorie ----------
   - name: "products"
     label: "Produits"
-    label_singular: "Produit"
-    description: "Modifiez les produits de chaque categorie."
+    label_singular: "Categorie de produits"
+    description: "Modifiez les produits de chaque categorie. Pour une nouvelle collection : creez une categorie et mettez comme 'Mot-clef' exactement le meme mot-clef que la collection de la page d'accueil."
     format: json
     folder: "content/products"
+    create: true
+    identifier_field: "slug"
     fields:
+      - label: "Mot-clef de la categorie"
+        name: "slug"
+        widget: "string"
+        hint: "Exactement le meme mot-clef que la collection de l'accueil (ex: diamant). Sans accents ni espaces."
       - { label: "Titre de la page", name: "pageTitle", widget: "string" }
       - { label: "Sous-titre de la page", name: "subtitle", widget: "string" }
       - label: "Produits"

@@ -13,6 +13,11 @@
   var base = isSubPage ? '../' : '';
   var slug = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/i, '');
 
+  // Page dynamique : le slug vient du parametre ?page= (ex: collection.html?page=diamant)
+  var urlParams = new URLSearchParams(location.search);
+  var pageParam = urlParams.get('page');
+  if (pageParam) slug = pageParam;
+
   function fetchJSON(url) {
     return fetch(url).then(function(res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -126,7 +131,12 @@
     var grid = document.querySelector('.collections-grid');
     if (!grid) return;
     grid.innerHTML = data.items.map(function(c) {
-      return '<a href="' + base + c.page + '" class="collection-card">' +
+      // c.page peut etre un chemin (pages/bague.html) ou un slug simple (diamant)
+      var href = c.page;
+      if (href && !/\.html$/.test(href)) {
+        href = 'pages/collection.html?page=' + encodeURIComponent(href);
+      }
+      return '<a href="' + base + href + '" class="collection-card">' +
         '<img src="' + base + c.image + '" alt="' + c.title + '" class="card-img">' +
         '<div class="card-body"><h3>' + c.title + '</h3><p>' + c.description + '</p></div></a>';
     }).join('');
@@ -135,11 +145,18 @@
   function renderProducts(data) {
     var pTitle = document.querySelector('.page-header h1');
     var pSub = document.querySelector('.page-header p');
-    if (pTitle && data.pageTitle) pTitle.textContent = data.pageTitle;
+    if (data.pageTitle) {
+      if (pTitle) pTitle.textContent = data.pageTitle;
+      document.title = data.pageTitle + ' - La Boucle d\'Or';
+    }
     if (pSub && data.subtitle) pSub.textContent = data.subtitle;
 
     var grid = document.querySelector('.product-grid');
-    if (!grid || !data.products || !data.products.length) return;
+    if (!grid) return;
+    if (!data.products || !data.products.length) {
+      grid.innerHTML = '<div class="empty-state">Cette collection est en cours de preparation. Revenez bientot !</div>';
+      return;
+    }
     grid.innerHTML = data.products.map(function(p) {
       return '<div class="product-card"><img src="' + base + p.image + '" alt="' + p.title + '">' +
         '<div class="p-body"><h3>' + p.title + '</h3><a href="#" class="btn">Voir detail</a></div></div>';
@@ -154,6 +171,7 @@
   var settingsPromise = fetchJSON(base + 'content/settings.json').catch(function() { return null; });
   var collectionsPromise = fetchJSON(base + 'content/collections.json').catch(function() { return null; });
   var productsPromise = null;
+  var isDynamicPage = pageParam != null;
 
   if (slug !== 'index' && slug !== '') {
     productsPromise = fetchJSON(base + 'content/products/' + slug + '.json').catch(function() { return null; });
@@ -162,6 +180,21 @@
   settingsPromise.then(function(s) { if (s) apply(renderSettings, s); });
   collectionsPromise.then(function(c) { if (c) apply(renderCollections, c); });
   if (productsPromise) {
-    productsPromise.then(function(p) { if (p) apply(renderProducts, p); });
+    productsPromise.then(function(p) {
+      // Page dynamique sans JSON : on affiche quand meme le titre et l'etat vide
+      if (!p && isDynamicPage) {
+        var emptyData = { pageTitle: '', subtitle: '', products: [] };
+        try {
+          var ph = document.querySelector('.page-header h1');
+          if (pageParam) {
+            if (ph) ph.textContent = pageParam.charAt(0).toUpperCase() + pageParam.slice(1);
+            document.title = ph ? ph.textContent : 'Collection';
+          }
+        } catch (e) {}
+        apply(renderProducts, emptyData);
+        return;
+      }
+      if (p) apply(renderProducts, p);
+    });
   }
 })();

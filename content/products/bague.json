@@ -1,10 +1,23 @@
-{
-  "pageTitle": "Nos Bagues",
-  "subtitle": "L'eclat de l'or au bout des doigts",
-  "products": [
-    { "title": "Bague Solitaire Or", "image": "images/Nos Bagues/Bague_cleanup.jpg" },
-    { "title": "Bague Alliance Diamant", "image": "images/Nos Bagues/Bague (2)_cleanup.jpg" },
-    { "title": "Bague Chevaliere Or", "image": "images/Nos Bagues/Bague (3)_cleanup.jpg" },
-    { "title": "Bague Or Fine", "image": "images/Nos Bagues/Bague (4)_cleanup.jpg" }
-  ]
+﻿{
+    "slug":  "bague",
+    "pageTitle":  "Nos Bagues",
+    "subtitle":  "L\u0027eclat de l\u0027or au bout des doigts",
+    "products":  [
+                     {
+                         "title":  "Bague Solitaire Or",
+                         "image":  "images/Nos Bagues/Bague_cleanup.jpg"
+                     },
+                     {
+                         "title":  "Bague Alliance Diamant",
+                         "image":  "images/Nos Bagues/Bague (2)_cleanup.jpg"
+                     },
+                     {
+                         "title":  "Bague Chevaliere Or",
+                         "image":  "images/Nos Bagues/Bague (3)_cleanup.jpg"
+                     },
+                     {
+                         "title":  "Bague Or Fine",
+                         "image":  "images/Nos Bagues/Bague (4)_cleanup.jpg"
+                     }
+                 ]
 }
