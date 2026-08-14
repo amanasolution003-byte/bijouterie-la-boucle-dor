@@ -1,11 +1,13 @@
 {
-    "slug":  "pendentifs",
-    "pageTitle":  "Nos Pendentifs",
-    "subtitle":  "Des pendentifs lumineux pour un style intemporel",
-    "products":  [
-                     {
-                          "title":  "Chaîne Gourmette Or",
-                         "image":  "images/Nos pendantifs/Chaine_cleanup.jpg"
-                     }
-                 ]
+  "slug": "pendentifs",
+  "pageTitle": "Nos chaîne",
+  "subtitle": "Des chaîne lumineuses pour un style intemporel",
+  "products": [
+    {
+      "title": "Chaîne ",
+      "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
+      "imageFormat": "cover",
+      "imageSize": "auto"
+    }
+  ]
 }
