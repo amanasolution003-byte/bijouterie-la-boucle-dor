@@ -41,6 +41,12 @@
       "description": "Des pendentifs lumineux pour un style intemporel.",
       "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
       "page": "pages/pendentifs.html"
+    },
+    {
+      "title": "Diamants et Rubis",
+      "description": "Des diamants et rubis qui vous laisserons sans voix ",
+      "image": "/images/uploads/diamants-et-rubis.jpg",
+      "page": "pages/Diamants&Rubis.html"
     }
   ]
 }
