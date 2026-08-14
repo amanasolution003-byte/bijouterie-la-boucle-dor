@@ -7,9 +7,6 @@
 backend:
   name: git-gateway
   branch: main
-  accept_roles:
-    - admin
-    - editor
 
 # Les images ajoutees via l'editeur sont stockees ici
 media_folder: "images/uploads"
