@@ -5,11 +5,15 @@
   "products": [
     {
       "title": "Bague Diamant",
-      "image": "images/uploads/diamants.jpg"
+      "image": "images/uploads/diamants.jpg",
+      "imageFormat": "cover",
+      "imageSize": "small"
     },
     {
       "title": "Parure Diamants et Rubis",
-      "image": "images/uploads/diamants-et-rubis.jpg"
+      "image": "images/uploads/diamants-et-rubis.jpg",
+      "imageFormat": "cover",
+      "imageSize": "small"
     }
   ]
 }
