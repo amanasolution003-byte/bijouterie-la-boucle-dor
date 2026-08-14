@@ -1,10 +1,10 @@
-﻿{
+{
     "slug":  "boucle",
     "pageTitle":  "Nos Boucles d\u0027oreilles",
-    "subtitle":  "L\u0027eclat aux oreilles",
+    "subtitle":  "L\u0027éclat aux oreilles",
     "products":  [
                      {
-                         "title":  "Creoles Or Jaune",
+                          "title":  "Créoles Or Jaune",
                          "image":  "images/Nos Boucles/Boucle_cleanup.jpg"
                      }
                  ]

@@ -1,4 +1,4 @@
-﻿{
+{
     "slug":  "ensemble-complet",
     "pageTitle":  "Nos Ensembles Complets",
     "subtitle":  "Des parures d\u0027exception pour vous sublimer",
@@ -8,7 +8,7 @@
                          "image":  "images/Nos Ensembles/Ensemble complet_cleanup.jpg"
                      },
                      {
-                         "title":  "Parure Perles d\u0027Au",
+                          "title":  "Parure Perles d\u0027Or",
                          "image":  "images/Nos Ensembles/Ensemble complet (2)_cleanup.jpg"
                      },
                      {
@@ -32,7 +32,7 @@
                          "image":  "images/Nos Ensembles/Ensemble complet (5)_cleanup.jpg"
                      },
                      {
-                         "title":  "Parure Princiere",
+                          "title":  "Parure Princière",
                          "image":  "images/Nos Ensembles/Ensemble complet (6)_cleanup.jpg"
                      }
                  ]

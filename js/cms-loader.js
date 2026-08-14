@@ -18,6 +18,9 @@
   var pageParam = urlParams.get('page');
   if (pageParam) slug = pageParam;
 
+  // Lien WhatsApp utilise par les boutons "Commander" (mis a jour depuis les parametres du site si trouves)
+  var whatsappLink = 'https://wa.me/213668437085';
+
   function fetchJSON(url) {
     return fetch(url).then(function(res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -103,6 +106,7 @@
     if (s.contact && s.contact.items && s.contact.items.length) {
       var cGrid = document.querySelector('.contact-grid');
       if (cGrid) {
+        s.contact.items.forEach(function(it) { if (it.icon === 'whatsapp' && it.link) whatsappLink = it.link; });
         cGrid.innerHTML = s.contact.items.map(function(it) {
           var value = it.link
             ? '<a href="' + it.link + '" target="_blank" rel="noopener" class="contact-value">' + it.value + '</a>'
@@ -163,7 +167,7 @@
       var imgClass = (p.imageFormat === 'contain' ? 'img-contain ' : '') +
         imgSizeClass('product-card', p.imageSize, 'medium');
       return '<div class="product-card"><img src="' + base + p.image + '" alt="' + p.title + '" class="' + imgClass + '">' +
-        '<div class="p-body"><h3>' + p.title + '</h3><a href="#" class="btn">Voir detail</a></div></div>';
+        '<div class="p-body"><h3>' + p.title + '</h3><a href="' + whatsappLink + '" target="_blank" rel="noopener" class="btn">Commander</a></div></div>';
     }).join('');
   }
 

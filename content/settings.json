@@ -2,17 +2,17 @@
   "site": {
     "title": "La Boucle d'Or - Bijouterie Fine",
     "logo": "La Boucle d'Or",
-    "footer": "© 2026 La Boucle d'Or - Bijouterie Fine. Tous droits reserves."
+    "footer": "© 2026 La Boucle d'Or - Bijouterie Fine. Tous droits réservés."
   },
   "hero": {
     "title": "La Boucle d'Or",
-    "subtitle": "L'elegance intemporelle",
-    "button": "Decouvrir",
+    "subtitle": "L'élégance intemporelle",
+    "button": "Découvrir",
     "image": "images/Acceuil.jpg"
   },
   "collections": {
     "title": "Nos Collections",
-    "subtitle": "Des pieces uniques faconnees avec passion"
+    "subtitle": "Des pièces uniques façonnées avec passion"
   },
   "about": {
     "title": "Notre Histoire",
@@ -26,7 +26,7 @@
   },
   "testimonials": {
     "title": "Ce qu'ils disent",
-    "subtitle": "La satisfaction de nos clients, notre plus belle recompense",
+    "subtitle": "La satisfaction de nos clients, notre plus belle récompense",
     "items": [
       {
         "text": "Des bijoux raffinés, élégants et légers à porter au quotidien. On sent une vraie attention portée aux détails et aux finitions.",
@@ -48,7 +48,7 @@
     "items": [
       {
         "icon": "phone",
-        "label": "Telephone",
+        "label": "Téléphone",
         "value": "0668 43 70 85",
         "link": "tel:0668437085"
       },
