@@ -1,11 +1,19 @@
 {
-    "slug":  "perle",
-    "pageTitle":  "Nos Perles",
-    "subtitle":  "L\u0027élégance intemporelle de la perle",
-    "products":  [
-                     {
-                         "title":  "Collier de Perles",
-                         "image":  "images/Nos perles/perles_cleanup.jpg"
-                     }
-                 ]
+  "slug": "Perles",
+  "pageTitle": "Nos Perles",
+  "subtitle": "L'élégance intemporelle de la perle",
+  "products": [
+    {
+      "title": "Collier de Perles",
+      "image": "images/Nos perles/perles_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/ensemble-complet-3-.jpg",
+      "title": "Parure en perles "
+    }
+  ]
 }
