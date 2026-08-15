@@ -56,6 +56,12 @@
       "imageSize": "auto",
       "image": "/images/uploads/ensemble-complet-1-.jpg",
       "title": "Parure Or "
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/ensemble-complet-2-.jpg",
+      "title": "Parure Or"
     }
   ]
 }
