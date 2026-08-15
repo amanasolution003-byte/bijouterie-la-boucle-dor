@@ -4,49 +4,65 @@
       "title": "Bague",
       "description": "Des bagues en or, ornées de pierres précieuses.",
       "image": "images/Nos Bagues/Bague_cleanup.jpg",
-      "page": "pages/bague.html"
+      "page": "pages/bague.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     },
     {
       "title": "Bracelet",
       "description": "Des bracelets raffinées pour des poignets élégants.",
       "image": "images/Nos Bracelets/Bracelet_cleanup.jpg",
-      "page": "pages/bracelet.html"
+      "page": "pages/bracelet.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     },
     {
       "title": "Boucle",
       "description": "Des boucles d'oreilles qui captent la lumière et attirent les regards.",
       "image": "images/Nos Boucles/Boucle_cleanup.jpg",
-      "page": "pages/boucle.html"
+      "page": "pages/boucle.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     },
     {
       "title": "Perle",
       "description": "Des bijoux de perles d'une élégance naturelle et raffinée.",
       "image": "images/Nos perles/perles_cleanup.jpg",
-      "page": "pages/perle.html"
+      "page": "pages/perle.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     },
     {
       "title": "Ensemble Bracelet & Bague",
       "description": "Des ensembles bracelet et bague pour sublimer vos mains.",
       "image": "images/Nos Ensembles/Ensemble Bracelet & Bague_cleanup.jpg",
-      "page": "pages/ensemble-bracelet-bague.html"
+      "page": "pages/ensemble-bracelet-bague.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     },
     {
       "title": "Ensemble complet",
       "description": "Des parures complètes pour un look harmonieux et élégant.",
       "image": "images/Nos Ensembles/Ensemble complet_cleanup.jpg",
-      "page": "pages/ensemble-complet.html"
+      "page": "pages/ensemble-complet.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     },
     {
-      "title": "Pendentifs",
-      "description": "Des pendentifs lumineux pour un style intemporel.",
+      "title": "Chaîne",
+      "description": "Des chaîne lumineux pour un style intemporel.",
       "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
-      "page": "pages/pendentifs.html"
+      "page": "pages/pendentifs.html",
+      "imageFormat": "cover",
+      "imageSize": "auto"
     },
     {
       "title": "Diamants et Rubis",
       "description": "Des diamants et rubis qui vous laisseront sans voix",
       "image": "images/uploads/diamants-et-rubis.jpg",
-      "page": "diamants-et-rubis"
+      "page": "diamants-et-rubis",
+      "imageFormat": "cover",
+      "imageSize": "auto"
     }
   ]
 }
