@@ -1,39 +1,61 @@
 {
-    "slug":  "ensemble-complet",
-    "pageTitle":  "Nos Ensembles Complets",
-    "subtitle":  "Des parures d\u0027exception pour vous sublimer",
-    "products":  [
-                     {
-                         "title":  "Parure Or \u0026 Diamants",
-                         "image":  "images/Nos Ensembles/Ensemble complet_cleanup.jpg"
-                     },
-                     {
-                          "title":  "Parure Perles d\u0027Or",
-                         "image":  "images/Nos Ensembles/Ensemble complet (2)_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Parure Or Rose",
-                         "image":  "images/Nos Ensembles/Ensemble complet 2_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Parure Saphir \u0026 Diamants",
-                         "image":  "images/Nos Ensembles/Ensemble complet 3_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Parure Or Blanc",
-                         "image":  "images/Nos Ensembles/Ensemble complet 4_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Parure Rubis",
-                         "image":  "images/Nos Ensembles/Ensemble complet (4)_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Parure Emeraude",
-                         "image":  "images/Nos Ensembles/Ensemble complet (5)_cleanup.jpg"
-                     },
-                     {
-                          "title":  "Parure Princière",
-                         "image":  "images/Nos Ensembles/Ensemble complet (6)_cleanup.jpg"
-                     }
-                 ]
+  "slug": "ensemble-complet",
+  "pageTitle": "Nos Ensembles Complets",
+  "subtitle": "Des parures d'exception pour vous sublimer",
+  "products": [
+    {
+      "title": "Parure Or & Diamants",
+      "image": "images/Nos Ensembles/Ensemble complet_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Perles d'Or",
+      "image": "images/Nos Ensembles/Ensemble complet (2)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Or Rose",
+      "image": "images/Nos Ensembles/Ensemble complet 2_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Saphir & Diamants",
+      "image": "images/Nos Ensembles/Ensemble complet 3_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Or Blanc",
+      "image": "images/Nos Ensembles/Ensemble complet 4_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Rubis",
+      "image": "images/Nos Ensembles/Ensemble complet (4)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Emeraude",
+      "image": "images/Nos Ensembles/Ensemble complet (5)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Princière",
+      "image": "images/Nos Ensembles/Ensemble complet (6)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/ensemble-complet-1-.jpg",
+      "title": "Parure Or "
+    }
+  ]
 }
