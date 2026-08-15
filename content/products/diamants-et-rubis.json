@@ -6,7 +6,7 @@
     {
       "title": "Parure Diamant",
       "image": "images/uploads/diamants.jpg",
-      "imageFormat": "cover",
+      "imageFormat": "contain",
       "imageSize": "auto"
     },
     {
