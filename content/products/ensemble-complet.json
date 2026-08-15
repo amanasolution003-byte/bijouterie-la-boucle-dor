@@ -1,6 +1,6 @@
 {
-  "slug": "ensemble-complet",
-  "pageTitle": "Nos Ensembles Complets",
+  "slug": "Parure de rêve ",
+  "pageTitle": "Nos Parures de rêve ",
   "subtitle": "Des parures d'exception pour vous sublimer",
   "products": [
     {
@@ -46,6 +46,12 @@
       "imageSize": "auto"
     },
     {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/ensemble-complet-1-.jpg",
+      "title": "Parure Or "
+    },
+    {
       "title": "Parure Princière",
       "image": "images/Nos Ensembles/Ensemble complet (6)_cleanup.jpg",
       "imageFormat": "contain",
@@ -54,14 +60,14 @@
     {
       "imageFormat": "contain",
       "imageSize": "auto",
-      "image": "/images/uploads/ensemble-complet-1-.jpg",
-      "title": "Parure Or "
+      "image": "/images/uploads/ensemble-complet-2-.jpg",
+      "title": "Parure Or"
     },
     {
       "imageFormat": "contain",
       "imageSize": "auto",
-      "image": "/images/uploads/ensemble-complet-2-.jpg",
-      "title": "Parure Or"
+      "image": "/images/uploads/ensemble-complet-3-.jpg",
+      "title": "Parure Or perles "
     }
   ]
 }
