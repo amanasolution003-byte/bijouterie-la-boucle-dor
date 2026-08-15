@@ -8,8 +8,8 @@ backend:
   name: github
   repo: amanasolution003-byte/bijouterie-la-boucle-dor
   branch: main
-  base_url: https://bijouterie-la-boucle-dor.pages.dev
-  auth_endpoint: /api/auth
+  base_url: https://decap-oauth.amana-solution003.workers.dev
+  auth_endpoint: /auth
 
 # Les images ajoutees via l'editeur sont stockees ici
 media_folder: "images/uploads"
