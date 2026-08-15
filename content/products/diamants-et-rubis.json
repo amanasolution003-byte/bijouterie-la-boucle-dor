@@ -12,8 +12,8 @@
     {
       "title": "Parure Diamants et Rubis",
       "image": "images/uploads/diamants-et-rubis.jpg",
-      "imageFormat": "cover",
-      "imageSize": "small"
+      "imageFormat": "contain",
+      "imageSize": "auto"
     }
   ]
 }
