@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion…</title>
+  <style>
+    body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background:#0a0a0a; color:#eee;
+           display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center; }
+    .box { padding: 32px; }
+    h2 { color:#d4af37; letter-spacing:2px; margin-bottom:8px; }
+    p { color:#888; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Connexion…</h2>
+    <p id="msg">Ouverture de l'administration…</p>
+  </div>
+  <script>
+    (function() {
+      var token = null;
+      var m = location.hash.match(/token=([^&]+)/);
+      if (m) {
+        try { token = decodeURIComponent(m[1]); } catch (e) { token = m[1]; }
+      }
+      if (token) {
+        try {
+          localStorage.setItem("decap-cms-user", JSON.stringify({ backendName: "github", token: token }));
+          location.replace("/admin/");
+        } catch (e) {
+          document.getElementById("msg").textContent = "Impossible d'enregistrer la connexion. Activez le stockage local puis réessayez.";
+        }
+      } else {
+        document.getElementById("msg").textContent = "Connexion impossible ou expirée. Revenez en arrière et réessayez.";
+      }
+    })();
+  </script>
+</body>
+</html>
