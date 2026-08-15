@@ -1,47 +1,7 @@
 {
   "items": [
     {
-      "title": "Bague",
-      "description": "Des bagues en or, ornées de pierres précieuses.",
-      "image": "images/Nos Bagues/Bague_cleanup.jpg",
-      "page": "pages/bague.html",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
-      "title": "Bracelet",
-      "description": "Des bracelets raffinées pour des poignets élégants.",
-      "image": "images/Nos Bracelets/Bracelet_cleanup.jpg",
-      "page": "pages/bracelet.html",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
-      "title": "Boucle",
-      "description": "Des boucles d'oreilles qui captent la lumière et attirent les regards.",
-      "image": "images/Nos Boucles/Boucle_cleanup.jpg",
-      "page": "pages/boucle.html",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
-      "title": "Perle",
-      "description": "Des bijoux de perles d'une élégance naturelle et raffinée.",
-      "image": "images/Nos perles/perles_cleanup.jpg",
-      "page": "pages/perle.html",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
-      "title": "Ensemble Bracelet & Bague",
-      "description": "Des ensembles bracelet et bague pour sublimer vos mains.",
-      "image": "images/Nos Ensembles/Ensemble Bracelet & Bague_cleanup.jpg",
-      "page": "pages/ensemble-bracelet-bague.html",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
-      "title": "Parure de rêve ",
+      "title": "Nos Parures de rêve ",
       "description": "Des parures complètes pour un look harmonieux et élégant.",
       "image": "images/Nos Ensembles/Ensemble complet_cleanup.jpg",
       "page": "pages/ensemble-complet.html",
@@ -49,18 +9,58 @@
       "imageSize": "auto"
     },
     {
-      "title": "Chaîne",
-      "description": "Des chaînes magnifiques pour un style intemporel.",
-      "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
-      "page": "pages/pendentifs.html",
+      "title": "Nos Diamants et Rubis",
+      "description": "Des diamants et rubis qui vous laisseront sans voix",
+      "image": "images/uploads/diamants-et-rubis.jpg",
+      "page": "diamants-et-rubis",
       "imageFormat": "cover",
       "imageSize": "auto"
     },
     {
-      "title": "Diamants et Rubis",
-      "description": "Des diamants et rubis qui vous laisseront sans voix",
-      "image": "images/uploads/diamants-et-rubis.jpg",
-      "page": "diamants-et-rubis",
+      "title": "Nos Ensembles Bague & Bracelets ",
+      "description": "Des ensembles Bague & Bracelets pour sublimer vos mains.",
+      "image": "images/Nos Ensembles/Ensemble Bracelet & Bague_cleanup.jpg",
+      "page": "pages/ensemble-bracelet-bague.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Nos Perles ",
+      "description": "Des bijoux de perles d'une élégance naturelle et raffinée.",
+      "image": "images/Nos perles/perles_cleanup.jpg",
+      "page": "pages/perle.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Nos Bague",
+      "description": "Des bagues en or, ornées de pierres précieuses.",
+      "image": "images/Nos Bagues/Bague_cleanup.jpg",
+      "page": "pages/bague.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Nos Bracelets ",
+      "description": "Des bracelets raffinées pour des poignets élégants.",
+      "image": "images/Nos Bracelets/Bracelet_cleanup.jpg",
+      "page": "pages/bracelet.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Nos Boucles ",
+      "description": "Des boucles d'oreilles qui captent la lumière et attirent les regards.",
+      "image": "images/Nos Boucles/Boucle_cleanup.jpg",
+      "page": "pages/boucle.html",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Nos Chaînes ",
+      "description": "Des chaînes magnifiques pour un style intemporel.",
+      "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
+      "page": "pages/pendentifs.html",
       "imageFormat": "cover",
       "imageSize": "auto"
     }
