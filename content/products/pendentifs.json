@@ -14,6 +14,12 @@
       "imageSize": "auto",
       "title": "Élégance Émeraude et Perle d'Or",
       "image": "/images/uploads/1000056899.jpg"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/1000056898.jpg",
+      "title": "L'Éclat Mystique de l'Améthyste et de la Perle."
     }
   ]
 }
