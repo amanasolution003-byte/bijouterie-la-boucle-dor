@@ -4,18 +4,6 @@
   "subtitle": "Des parures d'exception pour vous sublimer",
   "products": [
     {
-      "title": "Parure Or & Diamants",
-      "image": "images/Nos Ensembles/Ensemble complet_cleanup.jpg",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
-      "title": "Parure Perles d'Or",
-      "image": "images/Nos Ensembles/Ensemble complet (2)_cleanup.jpg",
-      "imageFormat": "contain",
-      "imageSize": "auto"
-    },
-    {
       "title": "Parure Or Rose",
       "image": "images/Nos Ensembles/Ensemble complet 2_cleanup.jpg",
       "imageFormat": "contain",
@@ -92,6 +80,18 @@
       "imageSize": "auto",
       "title": "Éclat d'or Perles et Rubis ",
       "image": "/images/uploads/1000056901.jpg"
+    },
+    {
+      "title": "Parure Or & Diamants",
+      "image": "images/Nos Ensembles/Ensemble complet_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Parure Perles d'Or",
+      "image": "images/Nos Ensembles/Ensemble complet (2)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
     }
   ]
 }
