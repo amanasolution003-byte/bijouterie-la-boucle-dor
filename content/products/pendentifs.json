@@ -8,6 +8,12 @@
       "image": "images/Nos pendantifs/Chaine_cleanup.jpg",
       "imageFormat": "cover",
       "imageSize": "auto"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "title": "Élégance Émeraude et Perle d'Or",
+      "image": "/images/uploads/1000056899.jpg"
     }
   ]
 }
