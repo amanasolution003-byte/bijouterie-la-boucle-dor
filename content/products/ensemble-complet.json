@@ -86,6 +86,12 @@
       "imageSize": "auto",
       "image": "/images/uploads/1000056902.jpg",
       "title": "Parure en Or et Saphirs"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "title": "Éclat d'or Perles et Rubis ",
+      "image": "/images/uploads/1000056901.jpg"
     }
   ]
 }
