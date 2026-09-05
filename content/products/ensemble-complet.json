@@ -74,6 +74,12 @@
       "imageSize": "auto",
       "image": "/images/uploads/1000056485.jpg",
       "title": "Parure Bella "
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "title": "Parure Cœur d'Émeraude",
+      "image": "/images/uploads/1000056905.jpg"
     }
   ]
 }
