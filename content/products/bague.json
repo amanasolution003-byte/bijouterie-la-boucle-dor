@@ -1,23 +1,37 @@
 {
-    "slug":  "bague",
-    "pageTitle":  "Nos Bagues",
-    "subtitle":  "L\u0027éclat de l\u0027or au bout des doigts",
-    "products":  [
-                     {
-                         "title":  "Bague Solitaire Or",
-                         "image":  "images/Nos Bagues/Bague_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Bague Alliance Diamant",
-                         "image":  "images/Nos Bagues/Bague (2)_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Bague Chevaliere Or",
-                         "image":  "images/Nos Bagues/Bague (3)_cleanup.jpg"
-                     },
-                     {
-                         "title":  "Bague Or Fine",
-                         "image":  "images/Nos Bagues/Bague (4)_cleanup.jpg"
-                     }
-                 ]
+  "slug": "bague",
+  "pageTitle": "Nos Bagues",
+  "subtitle": "L'éclat de l'or au bout des doigts",
+  "products": [
+    {
+      "title": "Bague Solitaire Or",
+      "image": "images/Nos Bagues/Bague_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Bague Alliance Diamant",
+      "image": "images/Nos Bagues/Bague (2)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Bague Chevaliere Or",
+      "image": "images/Nos Bagues/Bague (3)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "title": "Bague Or Fine",
+      "image": "images/Nos Bagues/Bague (4)_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/1000056903.jpg",
+      "title": "Éclat Royale Violet"
+    }
+  ]
 }
