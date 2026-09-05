@@ -80,6 +80,12 @@
       "imageSize": "auto",
       "title": "Parure Cœur d'Émeraude",
       "image": "/images/uploads/1000056905.jpg"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "image": "/images/uploads/1000056902.jpg",
+      "title": "Parure en Or et Saphirs"
     }
   ]
 }
