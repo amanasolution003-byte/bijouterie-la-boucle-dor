@@ -1,11 +1,19 @@
 {
-    "slug":  "boucle",
-    "pageTitle":  "Nos Boucles d\u0027oreilles",
-    "subtitle":  "L\u0027éclat aux oreilles",
-    "products":  [
-                     {
-                          "title":  "Créoles Or Jaune",
-                         "image":  "images/Nos Boucles/Boucle_cleanup.jpg"
-                     }
-                 ]
+  "slug": "boucle",
+  "pageTitle": "Nos Boucles d'oreilles",
+  "subtitle": "L'éclat aux oreilles",
+  "products": [
+    {
+      "title": "Créoles Or Jaune",
+      "image": "images/Nos Boucles/Boucle_cleanup.jpg",
+      "imageFormat": "contain",
+      "imageSize": "auto"
+    },
+    {
+      "imageFormat": "contain",
+      "imageSize": "auto",
+      "title": "L'Éclat du Rubis et la Pureté de la Perle",
+      "image": "/images/uploads/1000056900.jpg"
+    }
+  ]
 }
